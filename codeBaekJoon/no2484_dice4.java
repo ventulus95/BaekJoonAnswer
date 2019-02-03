@@ -26,11 +26,11 @@ public class no2484_dice4 {
 			else if(dice[1]==dice[2]&&dice[1]==dice[3]&&dice[0]!=dice[1]){//3개가 같은경우.
 				price += (10000+(1000*dice[3]));
 			}
-			else if(){//2개가 쌍으로 같은경우.
+			/*else if(){//2개가 쌍으로 같은경우.
 			}
 			else if(){ //2개만 같은경
 
-			}
+			}*/
 			else{//없
 
 			}

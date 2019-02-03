@@ -13,7 +13,7 @@ public class no9466_termproject {
 	static int v,e;
 
 	public static void dfs(int i){
-		visit[i] = arrayList.get(i);
+		visit[i] = arrayList.get(i).size();
 		for(int j:arrayList.get(i)){
 			if(visit[j]<0){
 				dfs(j);
