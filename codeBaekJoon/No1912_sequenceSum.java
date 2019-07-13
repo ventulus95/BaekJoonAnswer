@@ -1,3 +1,8 @@
+/* 2019.07.13 dp
+ * 이문제의 핵심은 자기 자신과 cache이전 값+자기자신이 큰지를 파악하는게 중요.
+ * 결국 자기자신이 크면 연속된 수열의 종료가 되어서 새로운연속합 진행.
+ *	cahce이전 값+자기자신이 큰 경우 여전히 연속된 합이 크므로 계속 연속합 진행.
+*/
 package codeBaekJoon;
 
 import java.io.BufferedReader;
@@ -26,7 +31,6 @@ public class No1912_sequenceSum {
 		}
 		for(int i=2; i<n+1; i++){
 			cache[i] = Math.max(num[i], num[i]+cache[i-1]);
-			
 		}
 		int max = Integer.MIN_VALUE;
 		for(int i=1; i<n+1; i++){
