@@ -6,7 +6,6 @@ import java.util.*;
 public class No13459_ballExit {
 	static int n,m,gx,gy,ans=0;
 	static char board[][];
-	static boolean visited[][][][];
 	static boolean done = false;
 
 	public static void main(String[] args) throws IOException  {
@@ -16,7 +15,6 @@ public class No13459_ballExit {
 		n = Integer.parseInt(st.nextToken());
 		m = Integer.parseInt(st.nextToken());
 		board = new char[n][m];
-		visited = new boolean [n][m][n][m];
 		int srx=-1, sry=-1, sbx=-1,sby=-1;
 		for(int i =0; i<n; i++){
 			char temp[] = br.readLine().toCharArray();

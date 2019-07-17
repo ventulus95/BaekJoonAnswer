@@ -29,11 +29,9 @@ public class No1912_sequenceSum {
 			num[i] = Integer.parseInt(st.nextToken());
 			cache[i] = num[i];
 		}
+		int max = Integer.MIN_VALUE;
 		for(int i=2; i<n+1; i++){
 			cache[i] = Math.max(num[i], num[i]+cache[i-1]);
-		}
-		int max = Integer.MIN_VALUE;
-		for(int i=1; i<n+1; i++){
 			max = Math.max(cache[i], max);
 		}
 		wr.write(String.valueOf(max));
