@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
+import java.util.Date;
 
 public class Main{
    static int n;
@@ -35,6 +36,8 @@ public class Main{
     public static void main(String[] args) throws IOException {
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
        BufferedWriter wr = new BufferedWriter(new OutputStreamWriter(System.out));
+       wr.write(String.valueOf(System.currentTimeMillis()));
+       wr.flush();
        int n = Integer.parseInt(br.readLine());
        s = new int [n+5];
        cache = new int[n+5];
