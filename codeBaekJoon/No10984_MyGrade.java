@@ -16,13 +16,17 @@ public class No10984_MyGrade {
 		StringTokenizer st;
 		for(int i =0; i<T; i++){
 			int n = Integer.parseInt(br.readLine());
+			int gradePointSum = 0;
+			float gradeSum = 0;
 			for(int j =0; j<n; j++){
 				String tc = br.readLine();
 				st = new StringTokenizer(tc, " ");
 				int gradepoint = Integer.parseInt(st.nextToken());
 				float grade =  Float.parseFloat(st.nextToken());
-				
+				gradePointSum += gradepoint;
+				gradeSum += grade*gradepoint;
 			}
+			System.out.println(gradePointSum+" "+Math.round(gradeSum*10/gradePointSum)/10.0);
 		}
 			
 	}
