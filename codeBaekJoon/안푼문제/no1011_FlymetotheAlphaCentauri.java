@@ -1,6 +1,6 @@
 /* 2019.02.08 하다가 도중에 때려침. 뭔가 부족함 코딩이...
 */
-package codeBaekJoon;
+package codeBaekJoon.안푼문제;
 
 import java.io.BufferedReader;
 import java.io.IOException;

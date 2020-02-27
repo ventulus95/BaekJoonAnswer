@@ -1,4 +1,4 @@
-package codeBaekJoon;
+package codeBaekJoon.안푼문제;
 import java.util.Scanner; 
 public class fibonacci_3_no2749 {
 	  public static void main(String[] args) {

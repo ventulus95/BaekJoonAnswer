@@ -1,6 +1,6 @@
 //2019.07.08 
 
-package codeBaekJoon;
+package codeBaekJoon.안푼문제;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

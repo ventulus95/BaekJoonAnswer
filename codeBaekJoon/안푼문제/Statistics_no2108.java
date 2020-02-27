@@ -1,4 +1,4 @@
-package codeBaekJoon;
+package codeBaekJoon.안푼문제;
 import java.util.*;
 public class Statistics_no2108 {
 	public static void main(String[] args) {

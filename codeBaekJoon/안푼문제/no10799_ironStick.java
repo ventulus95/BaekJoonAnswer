@@ -1,4 +1,4 @@
-package codeBaekJoon;
+package codeBaekJoon.안푼문제;
 import java.util.*;
 public class no10799_ironStick {
 

@@ -1,4 +1,4 @@
-package codeBaekJoon;
+package codeBaekJoon.안푼문제;
 import java.util.*;
 public class BinomialTheorem_no11050 {
 	public static void main(String[] args) {

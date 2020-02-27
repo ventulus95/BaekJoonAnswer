@@ -1,4 +1,4 @@
-package codeBaekJoon;
+package codeBaekJoon.안푼문제;
 // 2019.01.14
 
 import java.io.BufferedReader;
