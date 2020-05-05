@@ -7,7 +7,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class No11967_Switching_on_the_Lights {
